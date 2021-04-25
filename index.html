@@ -3,30 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Plotly绘图教程</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link type="image/x-icon" rel="icon" href="http://plotly.com/img/favicon.ico">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <body>
-    <nav>
-      <a href="#/">首页</a>
-      <a href="#/basic">Plotly配置</a>
-      <a href="#/demo">图表案例</a>
-      <a href="#/about">关于我们</a>
-    </nav>
-  </body>
-  <div id="app"></div>
-  <script>
+<body>
+<nav>
+  <a href="#/">首页</a>
+  <a href="#/basic">绘图指南</a>
+  <a href="#/demo">图表案例</a>
+  <a href="#/about">关于我们</a>
+</nav>
+</body>
+<div id="app"></div>
+<script>
     window.$docsify = {
-      name: '',
-      repo: ''
+        name: '',
+        repo: '',
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            noData: '找不到结果',//搜索不到结果时显示
+            paths: 'auto',//自动
+            placeholder: '搜索',//搜索框提示
+        },
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+</script>
+<!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>-->
+<!--搜索插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!-- 代码高亮插件 -->
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+<!--图片缩放-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!--复制代码-->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>

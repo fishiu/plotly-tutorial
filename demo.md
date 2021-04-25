@@ -86,7 +86,7 @@ fig.show()
 
 ![scatter](https://i.loli.net/2021/04/25/rxOJKRZWeFskHPf.png)
 
-## Dot Plots——点状图
+## Dot Plots 点状图
 
 散点图用于探究两个变量之间的关系，点状图再多画一层至多层trace进行其他变量的比较。
 
