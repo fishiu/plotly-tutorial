@@ -97,7 +97,7 @@ fig.add_trace(go.Scatter(x=[2, 3, 4], y=[4, 5, 6], name="yaxis2 data"),secondary
 fig.show()
 ```
 
-| <img src="http://pic.fishiu.com/uPic/lyy/5.jpg" alt="5" style="zoom:100%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/6.jpg" alt="6" style="zoom:67%;" /> |
+| <img src="http://pic.fishiu.com/uPic/lyy/5.jpg" alt="5" style="zoom:100%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/6.jpg" alt="6" style="zoom:100%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                         设置多坐标轴                         |                   调整图表大小以及画布背景                   |
 
@@ -158,7 +158,7 @@ fig.update_layout(legend=dict(x=0.88,bgcolor="LightSteelBlue",bordercolor="Black
 fig.show()
 ```
 
-​    <img src="http://pic.fishiu.com/uPic/lyy/9.jpg" alt="9" style="zoom:50%;" />
+​    <img src="http://pic.fishiu.com/uPic/lyy/9.jpg" alt="9" style="zoom:100%;" />
 
 ### 注释与辅助图形
 
@@ -175,7 +175,7 @@ fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/lyy/10.jpg" alt="10" style="zoom:67%;" />
+<img src="http://pic.fishiu.com/uPic/lyy/10.jpg" alt="10" style="zoom:100%;" />
 
 
 
@@ -208,7 +208,7 @@ fig.add_shape(type="rect",x0=2, y0=5, x1=3, y1=7, #这里要标识出长方形�
     line=dict(color="RoyalBlue"))
 fig.show()
 ```
-| <img src="http://pic.fishiu.com/uPic/lyy/11.jpg" alt="11" style="zoom:67%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/11-1.jpg" alt="11-1" style="zoom:67%;" /> |
+| <img src="http://pic.fishiu.com/uPic/lyy/11.jpg" alt="11" style="zoom:100%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/11-1.jpg" alt="11-1" style="zoom:100%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                           添加注释                           |                         添加辅助图形                         |
 
@@ -243,7 +243,7 @@ fig.update_layout(hovermode="x unified")
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/lyy/12.jpg" alt="12" style="zoom:67%;" />
+<img src="http://pic.fishiu.com/uPic/lyy/12.jpg" alt="12" style="zoom:100%;" />
 
 
 
@@ -269,7 +269,7 @@ fig = go.Figure(go.Scatter(x = [1,2,3,4,5],y = [2.02825,1.63728,6.83839,4.8485,4
     text = ['Custom text {}'.format(i + 1) for i in range(5)],showlegend = False))
 fig.show()
 ```
-| <img src="http://pic.fishiu.com/uPic/lyy/13.jpg" alt="13" style="zoom:67%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/14.jpg" alt="14" style="zoom:67%;" /> |
+| <img src="http://pic.fishiu.com/uPic/lyy/13.jpg" alt="13" style="zoom:100%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/14.jpg" alt="14" style="zoom:100%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                   设置`Hover`中展示的内容                    |            使用模板来为hover定制个性化的展示内容             |
 
@@ -303,7 +303,7 @@ fig.update_traces(
 )
 fig.show()
 ```
-| <img src="http://pic.fishiu.com/uPic/lyy/15.jpg" alt="15" style="zoom:67%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/16.jpg" alt="16" style="zoom:67%;" /> |
+| <img src="http://pic.fishiu.com/uPic/lyy/15.jpg" alt="15" style="zoom:100%;" /> | <img src="http://pic.fishiu.com/uPic/lyy/16.jpg" alt="16" style="zoom:100%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |               设置marker的边框、颜色以及透明度               |              将marker的样式设置为`square-open`               |
 
@@ -345,7 +345,7 @@ for row in range(1,4):
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210425080422.png" alt="截图_20210425080422" style="zoom: 50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210425080422.png" alt="截图_20210425080422" style="zoom: 100%;" />
 
 #### 网格复杂布局
 
@@ -366,7 +366,7 @@ fig.add_trace(temp, row=3, col=2)
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210425080446.png" alt="截图_20210425080446" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210425080446.png" alt="截图_20210425080446" style="zoom:100%;" />
 
 #### 调整边距
 
@@ -388,7 +388,7 @@ for row in range(1,4):
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20211525081514.png" alt="截图_20211525081514" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20211525081514.png" alt="截图_20211525081514" style="zoom:100%;" />
 
 #### 贴图式子图
 
@@ -405,7 +405,7 @@ fig.add_trace(go.Scatter(x=[1,2,3], y=[1,3,2], xaxis='x3', yaxis='y3'))
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/image-20210425202028250.png" alt="image-20210425202028250" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/image-20210425202028250.png" alt="image-20210425202028250" style="zoom:100%;" />
 
 #### 通过domain参数布局子图（底层的实现方法）
 
@@ -425,7 +425,7 @@ fig = go.Figure(data=[trace1,trace2],
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20212325082334.png" alt="截图_20212325082334" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20212325082334.png" alt="截图_20212325082334" style="zoom:100%;" />
 
 ### 子图个性化
 
@@ -459,7 +459,7 @@ fig.add_traces(
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080606.png" alt="截图_20210625080606" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080606.png" alt="截图_20210625080606" style="zoom:100%;" />
 
 #### 设置子图坐标轴
 
@@ -487,7 +487,7 @@ fig.update_yaxes(title="trace0-yaxis-title",    #轴标题
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080620.png" alt="截图_20210625080620" style="zoom: 67%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080620.png" alt="截图_20210625080620" style="zoom: 100%;" />
 
 #### 设置子图迹线
 
@@ -509,7 +509,7 @@ fig.update_traces(col=1,selector={"type": "scatter"},
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080636.png" alt="截图_20210625080636" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080636.png" alt="截图_20210625080636" style="zoom:100%;" />
 
 #### 其他子图设置
 
@@ -526,7 +526,7 @@ fig.add_vline(row=1, col=1, x=1.8, annotation_text="vertical-line")    #画一�
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080651.png" alt="截图_20210625080651" style="zoom:67%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210625080651.png" alt="截图_20210625080651" style="zoom:100%;" />
 
 ### 子图共用元素
 
@@ -544,7 +544,7 @@ fig.update_layout(height=600, width=800, title_text="Stacked Subplots with Share
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080707.png" alt="截图_20210725080707" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080707.png" alt="截图_20210725080707" style="zoom:100%;" />
 
 
 ```python
@@ -557,7 +557,7 @@ fig.add_traces([go.Scatter(y=y), go.Bar(y=y)],
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080719.png" alt="截图_20210725080719" style="zoom:67%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080719.png" alt="截图_20210725080719" style="zoom:100%;" />
 
 `share_xaxes`和`share_yaxes`只能实现网格中全部子图的坐标轴共用，如果想要设置某两个子图共用坐标轴而其他子图拥有单独的坐标轴，则需要用到底层的布局实现方法。坐标轴共享通过`trace`的`xaxis`和`yaxis`参数实现，同时在`fig`的`layout`中只设置显示的坐标轴，完整的坐标轴用`anchor`属性来互相定位。如下示例，前两个子图共用y轴，故`trace2`的`yaxis`设置为`y`，`layout`中不设置`yaxis2`，结果如下所示。
 
@@ -578,7 +578,7 @@ fig.update_layout(height=300)
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080736.png" alt="截图_20210725080736" style="zoom:67%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080736.png" alt="截图_20210725080736" style="zoom:100%;" />
 
 #### 共用配色方案
 
@@ -613,4 +613,4 @@ fig.update_yaxes(row=1, col=1, range=[0,1.1])
 fig.show()
 ```
 
-<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080750.png" alt="截图_20210725080750" style="zoom:50%;" />
+<img src="http://pic.fishiu.com/uPic/ckq/%E6%88%AA%E5%9B%BE_20210725080750.png" alt="截图_20210725080750" style="zoom:100%;" />
