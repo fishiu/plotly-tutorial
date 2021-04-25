@@ -7,8 +7,8 @@
 
 本教程将分为四个部分：
 - Plotly 安装指南
-- Plotly API 入门
-- Plotly 使用进阶
+- Plotly 基本绘图操作
+- Plotly 多子图绘图操作
 - Plotly 图表案例
 
 ## Plotly简介
