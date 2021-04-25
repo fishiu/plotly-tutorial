@@ -2,13 +2,38 @@
 
 > 数据可视化课程小组：金笑缘 陈科锜 李昱勇 唐陆禛
 > 
-> 本教程已使用Docsify部署于网页，可访问。
+> 本教程已使用Docsify部署于网页，可访问 http://plotly.fishiu.com/
+
 
 本教程将分为四个部分：
 - Plotly 安装指南
 - Plotly API 入门
 - Plotly 使用进阶
 - Plotly 图表案例
+
+## Plotly简介
+
+Plotly是一个交互式绘图库，提供了JavaScript、Python和R三种接口，本教程将重点介绍使用Plotly for Python进行绘图。
+
+Plotly有三种不同的Python API，可以选择用不同的方法来绘图：
+
+- 面向对象的API，通过plotly.graph_objects模块的图表对象进行绘制
+- 数据驱动的API，通过构造类似JSON的数据结构进行绘制
+- 高级绘图接口，是对底层绘图方法的包装，即plotly.express模块
+
+### 面向对象API
+
+使用graph_objects模块进行绘图时，用户需要定义画布对象`go.Figure()`、样式对象`go.Layout()`、迹线对象如散点图`go.Scatter()`、柱状图`go.Bar()`等，组合后进行渲染。
+
+### 数据驱动API
+
+Plotly的可视化建立在JSON数据结构之上，trace是一个字典，包含了要绘制的数据和颜色、线性等绘图指令，用于指定一组数据如何呈现；用列表组织多个trace构成了data，即在一张图表中要展示的所有trace；layout也是一个字典，用于设置图表的布局，包括标题、字体等属性，将data和layout组合在一起就构成了一张图表。这种方法直接对应于Plotly的JavaScript实现中的JSON API。
+
+### 高级绘图接口
+
+express模块是对绘图对象进行封装的高级API，类似于seaborn对matplotlib的封装，可以让用户用很少的代码进行绘图。
+
+本教程主要介绍使用面向对象的graph_objects模块进行绘图的方法。
 
 ## 安装指南
 
